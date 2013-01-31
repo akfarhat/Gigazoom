@@ -2,6 +2,7 @@ Gigazoom
 ========
 
 akfarhat: Abdul-Karim Farhat
+
 andrewbelu: Andrew Belu
 
 On-campus maps that will allow users to find directions between buildings using the above-ground paths or the tunnels.
