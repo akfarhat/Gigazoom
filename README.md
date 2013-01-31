@@ -7,7 +7,7 @@ andrewbelu: Andrew Belu
 
 On-campus maps that will allow users to find directions between buildings using the above-ground paths or the tunnels.
 The interface will be similar to Google Maps: the user will provide a source location and a destination then the application will provide written directions as well as drawing the path on a map. 
-We will possibly be using the Google Maps API to show the map but we haven't decided yet.
+We will possibly be using the Google Maps API to display the map and paths but we haven't decided yet.
 
 If there is enough time, we can also add in a feature that allows user to input their course schedule and the application will automatically provide all the directions for the day. 
 
