@@ -13,7 +13,7 @@ If there is enough time, we can also add in a feature that allows user to input 
 
 1. Feb 08: Architecture diagram & external library use and divide tasks
 2. Feb 15: Determine specific algorithms and data structures
-3. Mar 01: Initial coding
+3. Mar 01: Initial coding complete
 4. Mar 08: Framework demo
 5. Mar 15: Design and populate database
 6. Mar 22: Prototype
