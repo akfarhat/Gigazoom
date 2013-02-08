@@ -11,7 +11,7 @@ We will possibly be using the ~~Google Maps API~~ a mapping libary to display th
 
 We will most likely also add in a feature that allows user to input their course schedule and the application will automatically provide all the directions for the day. 
 
-1. Feb 08: Architecture diagram & external library use and divide tasks (See ArchitectureDiagram.png above and External Libraries below)
+1. Feb 08: Architecture diagram & external library use and divide tasks (See COMP2406Diagram.png above and External Libraries below)
 2. Feb 15: Determine specific algorithms and data structures
 3. Mar 01: Initial coding complete
 4. Mar 08: Framework demo
