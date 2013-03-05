@@ -1,0 +1,38 @@
+!!! 5
+html(lang='en')
+head
+	title  Gigazoom - Carleton University Campus Maps 
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	script(src='http://code.jquery.com/jquery.js')
+	script(src='bootstrap/js/bootstrap.min.js')
+	script(src='http://cdn.leafletjs.com/leaflet-0.5/leaflet.js')
+	script(src='javascripts/script.js')
+	link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet', media='screen')
+	link(href='bootstrap/css/bootstrap-responsive.min.css', rel='stylesheet', media='screen')
+	link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet-0.5/leaflet.css')
+	//if lte IE 8
+	link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css')
+	link(href='/stylesheets/style.css', rel='stylesheet', media='screen')
+body
+	.navbar.navbar-fixed-top
+		.navbar-inner
+			.container-fluid
+				a.brand(href='#') Gigazoom
+				ul.nav
+					li.divider-vertical
+				ul.nav.pull-right
+					li
+						a(href='#') Register
+					li.divider-vertical
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle='dropdown') Sign In
+							b.caret
+						.dropdown-menu
+							form(method='post', accept-charset='UTF-8')
+								input#user_email(type='email', name='email', size='30', placeholder='Email')
+								input#user_password(type='password', name='password', size='30', placeholder='Password')
+								input#user_remember_me(type='checkbox', name='remember_me', value='1')
+								label.string.optional(for='user_remember_me')  Remember me
+								button#user_signin_btn.btn.btn-primary.btn-block(type='button', name='signin') Sign In
+								
+	block content
