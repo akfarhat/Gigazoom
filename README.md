@@ -9,6 +9,5 @@ The user provides a source location and a destination then the application gives
 The application uses node.js and the express framework to make a web server with the data stored using mongoDB.
 The client-side uses leaflet.js for all map functionality, jQuery for AJAX and some UI effects, and Bootstrap for the UI.
 
-## Setup Instructions
 
 
