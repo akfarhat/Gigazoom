@@ -1,0 +1,26 @@
+!!! 5
+html(lang='en')
+head
+	title  Gigazoom - Carleton University Campus Maps 
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	script(src='http://code.jquery.com/jquery.js')
+	script(src='bootstrap/js/bootstrap.min.js')
+	script(src='http://cdn.leafletjs.com/leaflet-0.5/leaflet.js')
+	script(src='http://code.jquery.com/ui/1.10.2/jquery-ui.js')
+	link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet', media='screen')
+	link(href='bootstrap/css/bootstrap-responsive.min.css', rel='stylesheet', media='screen')
+	link(rel='stylesheet', href='http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css')
+	link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet-0.5/leaflet.css')
+	//if lte IE 8
+	link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css')
+	link(href='/stylesheets/style.css', rel='stylesheet', media='screen')
+	
+	script(src='javascripts/script.js')
+	
+body
+	.navbar.navbar-fixed-top
+		.navbar-inner
+			.container-fluid
+				a.brand(href='/') Gigazoom 
+					sub alpha
+	block content

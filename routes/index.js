@@ -2,7 +2,7 @@
 /*
  * GET home page.
  */
-
+ 
 exports.map = function(req, res){
   res.render('map');
 };

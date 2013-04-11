@@ -1,17 +1,22 @@
 extends layout
 
 block content 
-	#nav_form.container-fluid.row
-		form.form-inline
+	#nav_form_container.container-fluid.row
+		form#nav_form.form-inline(method='post', action='/navigate', accept-charset='UTF-8')
 			.input-append
 				input#nav_form_src.input-xlarge(type='text', name='src', placeholder='From')
-				button.btn(type='button', title='Current Location')
+				button#nav_form_src_btn.btn(type='button', title='Current Location')
 					i.icon-screenshot
 			.input-append
 				input#nav_form_dest.input-xlarge(type='text', name='dest', placeholder='To')
-				button.btn(type='button', title='Current Location')
+				button#nav_form_dest_btn.btn(type='button', title='Current Location')
 					i.icon-screenshot
 			button#nav_form_btn.btn.btn-primary(type='button') Navigate
 				i.icon-random.icon-white
+	#sidebar_container.span3
+		#sidebar.well.scrollable
+			h3 Directions
+			ol#directionsList
+			h5#distanceLabel
 	#map_container.container-fluid
 		#map
