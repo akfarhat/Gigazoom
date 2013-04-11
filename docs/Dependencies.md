@@ -8,8 +8,10 @@
 * Bootstrap: (License: Apache 2.0)
   * Used for automatic styling of the HTML pages and for some UI effects.
 
+
 * leaflet.js: (License: https://github.com/Leaflet/Leaflet/blob/master/LICENSE)
   * Used for displaying the map and handling all map-specific functions including location retrieval and showing paths.
+
 
 ## Node.js Modules:
 
