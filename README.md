@@ -1,29 +1,14 @@
-Gigazoom
-========
+# Gigazoom
 
 akfarhat: Abdul-Karim Farhat 100854719
 
-andrewbelu: Andrew Belu
+andrewbelu: Andrew Belu 100860640
 
-On-campus maps that will allow users to find directions between buildings using the above-ground paths or the tunnels.
-The interface will be similar to Google Maps: the user will provide a source location and a destination then the application will provide written directions as well as drawing the path on a map. 
-We will possibly be using the ~~Google Maps API~~ a mapping libary to display the map and paths but we haven't decided yet.
+On-campus maps that will allow users to find directions between buildings using the tunnels.
+The user provides a source location and a destination then the application gives written directions as well as drawing the path on the map. 
+The application uses node.js and the express framework to make a web server with the data stored using mongoDB.
+The client-side uses leaflet.js for all map functionality, jQuery for AJAX and some UI effects, and Bootstrap for the UI.
 
-We will most likely also add in a feature that allows user to input their course schedule and the application will automatically provide all the directions for the day. 
+## Setup Instructions
 
-1. Feb 08: Architecture diagram & external library use and divide tasks (See COMP2406Diagram.png above and External Libraries below)
-2. Feb 15: Determine specific algorithms and data structures
-3. Mar 01: Initial coding complete
-4. Mar 08: Framework demo
-5. Mar 15: Design and populate database
-6. Mar 22: Prototype
-7. Mar 29: Draft Documentation
-8. Apr 05: Testing and debugging
-9. Apr 10: Final Code and Documentation
 
-External Libraries and Tools
-----------------------------
-- jQuery, jQuery Validate, Bootstrap (and maybe some other jQuery plugin for forms)
-- Connect, Express, Jade, Stylus (probably)
-- OpenLayers or Leaflet.js (for the map)
-- MongoDB
