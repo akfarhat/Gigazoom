@@ -15,9 +15,6 @@ Used for displaying the map and handling all map-specific functions including lo
 
 ## Node.js Modules:
 
-* bcrypt: (License: https://github.com/ncb000gt/node.bcrypt.js/blob/master/LICENSE)  
-Used for hashing passwords to store in the database and to compare for authentication.
-
 * connect-mongo: (License: MIT)  
 Used for the MongoDB session storage with Connect.
 
