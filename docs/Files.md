@@ -1,3 +1,5 @@
+# Files
+
 * app.js  
 This is the server javascript file that is run by node.js. It handles incoming requests, accesses the database if necessary, and provides a response. 
 
