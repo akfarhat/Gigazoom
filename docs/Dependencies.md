@@ -1,20 +1,17 @@
-Dependencies
-============
+# Dependencies
 
-Client-side Libraries:
-----------------------
+## Client-side Libraries:
 
-- jQuery: (License: MIT)
-	- It was used for easier access and manipulation of the DOM, input validation, UI effects, and AJAX.
+* jQuery: (License: MIT)
+  * It was used for easier access and manipulation of the DOM, input validation, UI effects, and AJAX.
 
-- Bootstrap: (License: Apache 2.0)
-	- Used for automatic styling of the HTML pages and for some UI effects.
+* Bootstrap: (License: Apache 2.0)
+  * Used for automatic styling of the HTML pages and for some UI effects.
 
-- leaflet.js: (License: https://github.com/Leaflet/Leaflet/blob/master/LICENSE)
-	- Used for displaying the map and handling all map-specific functions including location retrieval and showing paths.
+* leaflet.js: (License: https://github.com/Leaflet/Leaflet/blob/master/LICENSE)
+  * Used for displaying the map and handling all map-specific functions including location retrieval and showing paths.
 
-Node.js Modules:
-----------------
+## Node.js Modules:
 
 - bcrypt: (License: https://github.com/ncb000gt/node.bcrypt.js/blob/master/LICENSE)
 	- Used for hashing passwords to store in the database and to compare for authentication.
