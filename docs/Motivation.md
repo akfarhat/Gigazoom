@@ -1,7 +1,0 @@
-# Motivation
-
-When we were coming up with our project idea, we came across a similar interest, maps. Whenever we had free time, we would both think of maps. Whenever we were in a boring class, we would think of maps. Going to bed we would dream of maps, and more maps, and maps of maps. We planned to get matching map tattoos. So it would only have made sense to make a map web application…  
-
-Okay maybe we were not actually into maps that zealously. But we did think that making a map application would be interesting and very useful for the future. Almost everything these days needs a map, businesses, malls, someone looking to go somewhere, games, etc. Both of us have our first co-op work terms this coming summer, and we have noticed how many GIS systems and mapping software there are out there. We figured a basic Carleton campus directions application would be a good place to start. We also thought it would be a good challenge for a web application, having a good interpretation of what a professional map application looks like (Google Maps) and trying our best to implement it.  
-
-We planned on implementing a web application which could help people who are not familiar with Carleton get around the campus.  The user would enter a location and a destination, and would be given the shortest path to get from their location to where they wanted to go, with the path drawn out on the campus map and the directions written out for the user to see.
