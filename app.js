@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -175,6 +174,7 @@ function findBuilding(info, buildings) {
 	return null;
 }
 
+//this thing should be split into multiple functions
 app.post("/navigate", function(req, res, next) {
 	var src = validateLocation(req.body.src);
 	var dest = validateLocation(req.body.dest);
